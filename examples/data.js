@@ -24,7 +24,7 @@ export const data = {
       y: generate(2, (i) => { return { x: 'value'+i, y: i*i*i } })
     }
   }),
-  largeArray: generate(1000, function(i){
+  largeArray: generate(10, function(i){
     //return i;
     return {
       x: i,
